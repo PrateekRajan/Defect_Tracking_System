@@ -1,0 +1,11 @@
+Êþº¾   1 I  'com/dts/core/control/DispatchController  javax/servlet/http/HttpServlet <init> ()V Code
+  	   LineNumberTable LocalVariableTable this )Lcom/dts/core/control/DispatchController; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V  page    %javax/servlet/http/HttpServletRequest   getParameter &(Ljava/lang/String;)Ljava/lang/String;  role  tpage  java/lang/StringBuilder
+  !   java/lang/String " # valueOf &(Ljava/lang/Object;)Ljava/lang/String;
+  %  & (Ljava/lang/String;)V ( ?role=
+  * + , append -(Ljava/lang/String;)Ljava/lang/StringBuilder; . &tpage=
+  0 1 2 toString ()Ljava/lang/String; 4 6 5 &javax/servlet/http/HttpServletResponse 7 & sendRedirect
+ 9 ; : com/dts/core/util/LoggerManager < = writeLogInfo (Ljava/lang/Exception;)V ? java/io/IOException req 'Ljavax/servlet/http/HttpServletRequest; res (Ljavax/servlet/http/HttpServletResponse; Ljava/lang/String; ioe Ljava/io/IOException; 
+SourceFile DispatchController.java !               /     *· ±    
+       	                    Ö     P+¹  N+¹  :+¹  :,» Y-¸ · $'¶ )¶ )-¶ )¶ )¶ /¹ 3 § 
+:¸ 8±   E H >  
+        	      H  J  O     H    P       P @ A    P B C  	 G  D   =  D   3  D  J  E F   G    H

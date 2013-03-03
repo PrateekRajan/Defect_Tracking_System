@@ -1,0 +1,30 @@
+Êþº¾   1 o  com/dts/btisqr/model/Bug  java/lang/Object bugID I 
+priorityID priorityName Ljava/lang/String; bugName 
+raisedDate raisedDate1 Ljava/sql/Date; raisedBy status 	projectID description assignedDate assignedDate1 
+AssignedTo solvedBy 
+solvedDate solvedDate1 solution <init> ()V Code
+     LineNumberTable LocalVariableTable this Lcom/dts/btisqr/model/Bug; getBugID ()I	  %   setBugID (I)V getPriorityID	  *   setPriorityID getPriorityName ()Ljava/lang/String;	  /  	 setPriorityName (Ljava/lang/String;)V 
+getBugName	  4 
+ 	 
+setBugName getRaisedDate	  8  	 setRaisedDate getRaisedDate1 ()Ljava/sql/Date;	  =   setRaisedDate1 (Ljava/sql/Date;)V getRaisedBy	  B  	 setRaisedBy 	getStatus	  F  	 	setStatus getDescription	  J  	 setDescription getAssignedDate	  N  	 setAssignedDate getAssignedDate1	  R   setAssignedDate1 getAssignedTo	  V  	 setAssignedTo 
+assignedTo getSolvedBy	  [  	 setSolvedBy getSolvedDate	  _  	 setSolvedDate getSolvedDate1	  c   setSolvedDate1 getSolution	  g  	 setSolution setProjectID	  k   getProjectID 
+SourceFile Bug.java !                     	     
+ 	      	            	      	            	      	            	      	      	            	   #        /     *· ±                      !    " #     /     *´ $¬                      !    & '     >     *µ $±       
+                 !          ( #     /     *´ )¬           !           !    + '     >     *µ )±       
+    $  %           !          , -     /     *´ .°           '           !    0 1     >     *+µ .±       
+    *  +           !       	   2 -     /     *´ 3°           -           !    5 1     >     *+µ 3±       
+    0  1           !      
+ 	   6 -     /     *´ 7°           3           !    9 1     >     *+µ 7±       
+    6  7           !       	   : ;     /     *´ <°           9           !    > ?     >     *+µ <±       
+    <  =           !          @ -     /     *´ A°           ?           !    C 1     >     *+µ A±       
+    B  C           !       	   D -     /     *´ E°           E           !    G 1     >     *+µ E±       
+    H  I           !       	   H -     /     *´ I°           K           !    K 1     >     *+µ I±       
+    N  O           !       	   L -     /     *´ M°           Q           !    O 1     >     *+µ M±       
+    T  U           !       	   P ;     /     *´ Q°           W           !    S ?     >     *+µ Q±       
+    Z  [           !          T -     /     *´ U°           ]           !    W 1     >     *+µ U±       
+    `  a           !      X 	   Y -     /     *´ Z°           c           !    \ 1     >     *+µ Z±       
+    f  g           !       	   ] -     /     *´ ^°           i           !    ` 1     >     *+µ ^±       
+    l  m           !       	   a ;     /     *´ b°           o           !    d ?     >     *+µ b±       
+    r  s           !          e -     /     *´ f°           u           !    h 1     >     *+µ f±       
+    x  y           !       	   i '     >     *µ j±       
+    {  |           !          l #     /     *´ j¬           ~           !    m    n

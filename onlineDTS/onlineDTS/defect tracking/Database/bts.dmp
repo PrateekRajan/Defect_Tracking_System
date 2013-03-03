@@ -1,0 +1,121 @@
+ ²EXPORT:V10.01.00
+DBTS
+RUSERS
+2048
+0
+20
+0
+ ² ²Ð          8                                            Fri Apr 8 12:9:54 2011F:\reddy\Lalli\Danush_2011\Bug Tracking\Database\bts.dmp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        d    `$	
+#G###A°# ƒ ²Ð                                     d    `$	
+#G###A°# ƒ ² ²                                      +00:00   BYTE UNUSED 2 INTERPRETED DISABLE:ALL
+METRICSU
+METRICSUpre-schema procedural objects and actions
+PROCACTION
+ýÿ BEGIN  
+j sys.dbms_logrep_imp.instantiate_schema(schema_name=>'BTS', export_db_name=>'REDDY', inst_scn=>'1986089');
+ COMMIT; END;
+  
+METRICEU 15
+METRICSUforeign function library names for user    
+METRICEU 15
+METRICSUPUBLIC type synonyms
+METRICEU 15
+METRICSUprivate type synonyms
+METRICEU 15
+METRICSUobject type definitions for user    
+METRICEU 15
+METRICSUpre-schema procedural objects and actions
+METRICEU 15
+METRICSUdatabase links
+METRICEU 15
+METRICSUsequence numbers
+METRICEU 15
+METRICSUcluster definitions
+METRICEU 15
+METRICSUXDB Schemas by user 
+METRICEU 15
+TABLE "BUGASSIGNED"
+CREATE TABLE "BUGASSIGNED" ("BUGID" NUMBER(36, 0), "ASSIGNEDTO" VARCHAR2(44), "ASSIGNEDDATE" DATE)  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "BUGASSIGNED" ("BUGID", "ASSIGNEDTO", "ASSIGNEDDATE") VALUES (:1, :2, :3)
+    , ²         Á kishore xl   Á kishore xl   Á kishore xl   Á kishore xl   Á kishore xl   Á kishore xl  ÿÿ
+TABLE "BUGS"
+CREATE TABLE "BUGS" ("BUGID" NUMBER(36, 0), "BUGNAME" VARCHAR2(44), "PROJECTID" NUMBER(36, 0), "RAISEDDATE" DATE, "RAISEDBY" VARCHAR2(44), "PRIORITY" NUMBER(36, 0), "DESCRIPTION" VARCHAR2(44), "STATUS" VARCHAR2(44))  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "BUGS" ("BUGID", "BUGNAME", "PROJECTID", "RAISEDDATE", "RAISEDBY", "PRIORITY", "DESCRIPTION", "STATUS") VALUES (:1, :2, :3, :4, :5, :6, :7, :8)
+    , ²       , ²     , ²   , ²       Á Cosmotic Á xl rahima Á sfsdfsdf	 Completed   Á Sql Á xl rahima Á
+ Severe Bug	 Completed   Á Login Á xl rahima Á i am not logged in Assigned   Á ssdfsdf Á xl rahima Á sdfsdfsd Pending  ÿÿ
+TABLE "LOGINAUDIT"
+CREATE TABLE "LOGINAUDIT" ("LOGINID" VARCHAR2(44), "LOGINDATE" DATE, "LOGINDESC" VARCHAR2(44))  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "LOGINAUDIT" ("LOGINID", "LOGINDATE", "LOGINDESC") VALUES (:1, :2, :3)
+  , ²     , ²       ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   prasad xl Login Success   prasad xl Login Success   ashok xl Login Success   prasad xl Login Success   ashok xl Database Connection problem   prasad xl Database Connection problem   prasad xl Login Success   prasad xl Login Success   ashok xl Login Success   prasad xl Login Success   rahima xl Login Success   rahima xl Login Success   prasad xl Login Success   rahima xl Login Success   rahima xl Login Success   rahima xl Login Success   rahima xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   kishore xl Login Success   rahima xl Login Success   prasad xl Login Success   kishore xl Entered Invalid password   kishore xl Login Success   kishore xl Login Success   prasad xl Login Success   kishore xl Login Success   prasad xl Login Success   kishore xl Login Success   ashok xl Login Success   ashok xl Login Success   prasad xl Login Success   tester xl Entered Invalid password   rahima xl Login Success   rahima xl Login Success   rahima xl Login Success   kishore xl Login Success   prasad xl Login Success   ashok xl Login Success   prasad xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Login Success   prasad xl Login Success   kishore xl Login Success   rahima xl Login Success   prasad xl Login Success   kishore xl Login Success   ashok xl Login Success   ashok xl Login Success   prasad xl Login Success   prasad xl Login Success   kishore xl Login Success   rahima xl Login Success   rahima xl Login Success   prasad xl Login Success   prasad xl Login Success   ashok xl Login Success   ashok xl Login Success   prasad xl Login Success   kishore xl Login Success   rahima xl Login Success   ashok xl Login Success   ashok xl Login Success   admin xl Login Success   prasad xl Login Success   kishore xl Login Success   kishore xl Login Success   rahima xl Login Success   prasad xl Login Success   kishore xl Login Success   prasad xl Login Success   kishore xl Login Success   rahima xl Login Success   ashok xl Entered Invalid password   ashok xl Entered Invalid password   admin xl Login Success   prasad xl Login Success   rahima xl Login Success   prasad xl Login Success   ashok xl Entered Invalid password   ashok xl Entered Invalid password   admin xl Login Success   admin xl Login Success   prasad xl Login Success   admin xl Login Success   prasad xl Login Success   kishore xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Database Connection problem   ashok xl Database Connection problem   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   prasad xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   null xl Entered Invalid password   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   prasad xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Login Success   prasad xl Login Success   prasad xl Login Success   ashok xl Login Success   prasad xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   prasad xl Entered Invalid password   ashok xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   ashok xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   admin xl Entered Invalid password   prasad xl Login Success   prasad xl Login Success   prasad xl Entered Invalid password   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Entered Invalid password   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   ashok xl Entered Invalid password   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   prasad xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Login Success   ashok xl Entered Invalid password   ashok xl Login Success  ÿÿ
+TABLE "LOGINDETAILS"
+CREATE TABLE "LOGINDETAILS" ("LOGINNAME" VARCHAR2(44), "PASSWORD" VARCHAR2(44), "FIRSTNAME" VARCHAR2(44), "LASTNAME" VARCHAR2(44), "LOGINTYPE" VARCHAR2(44), "LOGINSTATUS" NUMBER(36, 0), "REGDATE" DATE, "SQUESTIONID" NUMBER(36, 0), "SANSWER" VARCHAR2(44), "FIRSTLOGIN" NUMBER(36, 0), "PASSMODIFIEDDATE" DATE)  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "LOGINDETAILS" ("LOGINNAME", "PASSWORD", "FIRSTNAME", "LASTNAME", "LOGINTYPE", "LOGINSTATUS", "REGDATE", "SQUESTIONID", "SANSWER", "FIRSTLOGIN", "PASSMODIFIEDDATE") VALUES (:1, :2, :3, :4, :5, :6, :7, :8, :9, :10, :11)
+  , ²   , ²   , ²   , ²   , ²         , ²           admin admin ashok ramam admin Á xk Á aaaaa Á xl   kishore kishore kishore chikkala	 developer Á xk Á cccc Á xk   prasad prasad ram prasad manager Á xk Á	 Mercides Á xl   rahima rahima Rahima Mohammad tester Á xk Á Indian Cricket Team Á xk   anil anil Anil kumar tester Á xl Á anil € xl   rahima1 rahima Rahima Mohammad	 developer Á xk Á Indian Cricket Team Á xk  ÿÿ
+TABLE "LOGINPROFILE"
+CREATE TABLE "LOGINPROFILE" ("LOGINID" VARCHAR2(44), "BIRTHDATE" DATE, "HNO" VARCHAR2(44), "STREET" VARCHAR2(44), "CITY" VARCHAR2(44), "STATE" VARCHAR2(44), "COUNTRY" VARCHAR2(44), "PINCODE" VARCHAR2(44), "CONTACTNO" VARCHAR2(44), "EMAIL" VARCHAR2(44), "LOCALE" VARCHAR2(44), "PROFILEMODIFIEDDATE" DATE)  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "LOGINPROFILE" ("LOGINID", "BIRTHDATE", "HNO", "STREET", "CITY", "STATE", "COUNTRY", "PINCODE", "CONTACTNO", "EMAIL", "LOCALE", "PROFILEMODIFIEDDATE") VALUES (:1, :2, :3, :4, :5, :6, :7, :8, :9, :10, :11, :12)
+  , ²     , ²   , ²   , ²   , ²   , ²   , ²   , ²   , ²   , ²         prasad w· 534-78 Ameerpet	 Hyderabad Andhra pradesh India 456456
+ 9885125213 sdf@sdfs.com en_US xl   ashok w· 34534 Ameerpet	 Hyderabad Andhra pradesh India 456456	 768678768 sdf@sdfs.com en_US xk   rahima xk 34534 Ameerpet	 Hyderabad Andhra pradesh India 456456	 678678678 sdf@sdfs.com en_US xl   kishore xk 34534 Ameerpet	 Hyderabad Andhra pradesh India 564566
+ 9885125532 sdf@sdfs.com en_US xl   anil w´
+ 2344 Ameerpet	 Hyderabad Andhra pradesh India 567567 5676777 anil@gmail.com en_US xl   rahima1 xk 34534 Ameerpet	 Hyderabad Andhra pradesh India 456456	 678678678 sdf@sdfs.com en_US xl  ÿÿ
+TABLE "PRIORITY"
+CREATE TABLE "PRIORITY" ("PRIORITYID" NUMBER(36, 0), "PRIORITYTYPE" VARCHAR2(44))  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "PRIORITY" ("PRIORITYID", "PRIORITYTYPE") VALUES (:1, :2)
+    , ²       Á Severe   Á Warning  ÿÿ
+TABLE "PROJECT"
+CREATE TABLE "PROJECT" ("PROJECTID" NUMBER(36, 0), "PROJECTNAME" VARCHAR2(44), "STARTDATE" DATE, "ENDDATE" DATE, "STATUS" VARCHAR2(44), "ASSIGNEDTO" VARCHAR2(44))  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "PROJECT" ("PROJECTID", "PROJECTNAME", "STARTDATE", "ENDDATE", "STATUS", "ASSIGNEDTO") VALUES (:1, :2, :3, :4, :5, :6)
+    , ²       , ²   , ²       Á BTISQR xl xl Process prasad   Á DTS xl xl Process prasad   Á Bug Tracker xl xl Process prasad  ÿÿ
+TABLE "PROJECTMEMBERS"
+CREATE TABLE "PROJECTMEMBERS" ("PROJECTID" NUMBER(36, 0), "MEMBER" VARCHAR2(44), "STATUS" NUMBER(36, 0))  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "PROJECTMEMBERS" ("PROJECTID", "MEMBER", "STATUS") VALUES (:1, :2, :3)
+    , ²         Á rahima Á   Á kishore Á  ÿÿ
+TABLE "QUESTIONBASE"
+CREATE TABLE "QUESTIONBASE" ("QUESTIONID" NUMBER(36, 0), "QUESTIONDETAIL" VARCHAR2(44))  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "QUESTIONBASE" ("QUESTIONID", "QUESTIONDETAIL") VALUES (:1, :2)
+    , ²       Á What is your favorite pastime?   Á Who was your childhood hero?   Á' What was the name of your first school?   Á Where did you meet your spouse?   Á" What is your favorite sports team?  ÿÿ
+TABLE "SOLUTION"
+CREATE TABLE "SOLUTION" ("BUGID" NUMBER(36, 0), "SOLVEDBY" VARCHAR2(44), "SOLVEDDATE" DATE, "SOLUTION" VARCHAR2(44))  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 STORAGE(INITIAL 65536 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT) TABLESPACE "USERS" LOGGING NOCOMPRESS
+INSERT INTO "SOLUTION" ("BUGID", "SOLVEDBY", "SOLVEDDATE", "SOLUTION") VALUES (:1, :2, :3, :4)
+    , ²     , ²       Á kishore xl Solution   Á kishore xl Severe Bug Solution   Á kishore xl hjkhjkhjkhj   Á kishore xl give admin,admin  ÿÿ
+ENDTABLE
+METRICSUsynonyms
+METRICEU 4
+METRICSUviews
+METRICEU 4
+METRICSUstored procedures
+METRICEU 4
+METRICSUoperators
+METRICEU 4
+METRICSUAnalyze cluster statements 
+METRICEU 4
+METRICSUreferential integrity constraints
+METRICEU 4
+METRICSUtriggers
+METRICEU 4
+METRICSUindextypes
+METRICEU 4
+METRICSUbitmap, functional and extensible indexes
+METRICEU 4
+METRICSUposttables actions
+METRICEU 4
+METRICSUmaterialized views
+METRICEU 4
+METRICSUsnapshot logs
+METRICEU 4
+METRICSUjob queues
+METRICEU 4
+METRICSUrefresh groups and children
+METRICEU 4
+METRICSUdimensions
+METRICEU 4
+METRICSUPost-inst procedural actions 
+METRICEU 4
+METRICSUpost-schema procedural objects and actions
+METRICEU 19
+METRICSUstatistics
+METRICEU 19
+METRICEUG0
+EXIT
+EXIT
+                                                                                                                                                                           

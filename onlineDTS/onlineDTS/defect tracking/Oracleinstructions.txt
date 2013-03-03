@@ -1,0 +1,95 @@
+for using oracle:
+-------------------
+For Executing The Application We Follow The Following steps
+
+ Step1-->Creating new User account in sql
+ -------------------------------------------
+Login into oracle through system user. then create a user for your project by using the following command.
+  >create user username identified by password;
+   o/p: user created
+
+  Note:username--related to ur projectname.(here refer username in System.properties file )
+
+  >Grant dba to username;
+
+  o/p: grant succeeded
+  >conn username/password;   (it connects to the above created user)
+
+  Step2:-->importing the dump file
+  --------------------------------
+
+  goto-> Start--->run-->in  run type "imp", select ok.
+
+  here data base import command prompt displayed;
+
+  In that give ur username/password
+
+  next  give the path of the dump file name.
+
+  Note: suppose ur dump file located in 'c' drive then give that path as c:\ dumpfilename.dmp
+  Otherwise copy the dump file and paste it on the desktop and then drag and drop on the console. It contains double quotes.Just romove that.
+
+  next press enter
+
+  its asking (yes/no) for that select 'n'--->press enter
+  
+  next 'y'  --->press enter
+  next  'y' --->press enter
+  next 'y'  --->press enter
+  next 'y'  --->press enter
+
+
+  after that we are getting our tables and data including tables in our sql account
+
+)
+
+ 
+   
+  Step3:change the system.properties file in ur code
+  -------------------------------------------------
+   mainfolder->defect tracking\Executable\DefectTrackingSystem\WEB-INF\config->System.properties file
+ 
+  in that file
+
+   require to change the url name
+
+   ie dburl=jdbc:oracle:thin:@[ursystemIPAddress]:1521:[database_serviceName]
+   
+ [ note:   for that  ur system name and service name refer the file tnsnames.ora in ur oracle folders
+
+  Search that file tnsnames.ora  in ur installation folder oforacle]
+
+Provide the user name and password i.e created in sql
+also write the dbname=oracle
+  step4:deploying the project
+  ---------------------------
+
+  copy the DefectTrackingSystem folder  in ur project  and paste in Tomcat5.0\Webapps\(paste here)
+
+
+ step 5:Run the tocat server
+-----------------------------
+
+ Go to tomcat-->bin-->startup(double click on start up)
+  Now we get server running mode.
+
+  step 6:
+  --------
+
+  ->open the browser
+
+  and give the following path in address bar.
+
+  http://localhost:8081/projectname(ie the folder name present in webapps of tomcat)
+  8081--is the tomcat port no.(provide your tomcat port no what you have given at the time of installation)
+----------------------------------------------------------------------
+
+To get the login id and password, go to the sql prompt
+write the command
+ select * from tab;
+It shows all the tables of your project
+one of the table contains the login details(here the table name is LOGINDETAILS)
+Write the command 
+ select * from LOGINDETAILS;
+it shows the loginid and password
+follow that to access the project.

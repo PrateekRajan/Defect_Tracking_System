@@ -1,0 +1,22 @@
+Êþº¾   1 K  com/dts/btisqr/model/Project  java/lang/Object 	projectID I projectName Ljava/lang/String; 	startDate endDate 
+startDate1 Ljava/sql/Date; endDate1 status 
+assignedTo 
+memberName role <init> ()V Code
+     LineNumberTable LocalVariableTable this Lcom/dts/btisqr/model/Project; getMemberName ()Ljava/lang/String;	     setMemberName (Ljava/lang/String;)V getRole	  #   setRole getProjectID ()I	  (   setProjectID (I)V getProjectName	  -   setProjectName getStartDate	  1 	  setStartDate 
+getEndDate	  5 
+  
+setEndDate getStartDate1 ()Ljava/sql/Date;	  :   setStartDate1 (Ljava/sql/Date;)V getEndDate1	  ?   setEndDate1 	getStatus	  C   	setStatus getAssignedTo	  G   setAssignedTo 
+SourceFile Project.java !     
+            	     
+                                          /     *· ±                               /     *´ °                                >     *+µ ±       
+                          !      /     *´ "°                         $       >     *+µ "±       
+                          % &     /     *´ '¬                         ) *     >     *µ '±       
+    "  #                    +      /     *´ ,°           %              .       >     *+µ ,±       
+    (  )                    /      /     *´ 0°           +              2       >     *+µ 0±       
+    .  /                	    3      /     *´ 4°           1              6       >     *+µ 4±       
+    4  5                
+    7 8     /     *´ 9°           7              ; <     >     *+µ 9±       
+    :  ;                    = 8     /     *´ >°           =              @ <     >     *+µ >±       
+    @  A                    A      /     *´ B°           C              D       >     *+µ B±       
+    F  G                    E      /     *´ F°           I              H       >     *+µ F±       
+    L  M                    I    J
